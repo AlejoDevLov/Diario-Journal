@@ -1,0 +1,1 @@
+Diario para cargar imagenes y agregar notas personales, con registro mediante correo electronico o google.
