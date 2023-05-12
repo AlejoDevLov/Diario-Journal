@@ -1,0 +1,32 @@
+
+.button-navbar{
+    z-index: 1300 !important;
+}
+
+.sidebar-2{
+    /* position: absolute;
+    left: -240px; */
+    transition: all .3s linear;
+    -o-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+
+@media screen and (max-width: 600px){ 
+    .sidebar{
+        transform: translateX(-240px);
+        -o-transform: translateX(-240px);
+        -ms-transform: translateX(-240px);
+        -moz-transform: translateX(-240px);
+        -webkit-transform: translateX(-240px);
+        transition: all .3s linear;
+        -o-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -webkit-transition: all .3s linear;
+    }
+
+    .nothing-view{
+        width: 90vw !important;
+    }
+}
